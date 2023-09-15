@@ -1,4 +1,35 @@
-.App {
+/* Default styles */
+body {
+  background-color: #fff; /* Light background color */
+  color: #333; /* Dark text color */
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #000; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+/* Navbar styles in dark mode */
+.dark-mode .navbar {
+  background-color: #333; /* Darker navbar background color */
+  color: #fff; /* Light text color in navbar */
+}
+
+/* News item card styles in dark mode */
+.dark-mode .dark-mode-card {
+  background-color: #333; /* Darker background color for cards */
+  color: #fff; /* Light text color for cards */
+}
+
+/* Additional component styles in dark mode */
+.dark-mode .your-component-class {
+  /* Define styles for your components in dark mode */
+}
+
+/* Your existing styles below */
+
+ .App {
   text-align: center;
 }
 
@@ -35,4 +66,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} 
